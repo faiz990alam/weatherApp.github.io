@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body{
+    font-family: "Nunito",sans-serif;
+    background: #f8f8f8;
+    background-image: url(https://img.freepik.com/free-vector/paper-style-3d-clouds-background-blue-sky_1017-38298.jpg?w=2000);
+    
+  }
+  
+  .submit{
+    color: #781C1D;
+  }
+
+  .input{
+    text-align: center;
+    margin: 100px auto;
+  }
+  
+  input[type="submit"]{
+    padding: 15px 30px;
+    background: #e7e7e7;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  
+  .input input[type="text"]{
+    width: 600px;
+    height: 55px;
+    padding: 5px 10px;
+    background: #e7e7e7;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  
+  .card{
+    width: 50%;
+    background: #e7e7e7;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 2px;
+  }
+  
+  
+  .close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .card h1{
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .card p{
+    text-align: center;
+    margin:40px 0;
+    font-size:20px;
+  }
+
+  /* footer */
+  .footer{background: #781C1D; width: 95%; color:#fff; margin: 1%; padding: 1%;
+    display: inline-block;}
+    
+    a.footerlogo {color:#fff; width: 10%;
+    float:left; padding: 1% 1% 1% 1%; text-decoration: none; margin: 0% 5% 0% 0%;}
+    
+    img.icon {width:25px; float:left; height:25px; margin: 7px; position: relative;}
+    
+    .testo_disclaimer {color:white; padding: 0; font-size: 15px; text-align: left; width: 100%;}
+    
+    .disclaimer {text-align:right;}
+    
+    .icon:hover {opacity: 0.5;}
+
+    .foot {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(114, 9, 9);
+        color: white;
+        text-align: center;
+     }
+
+     .name2{
+        text-align: right;
+     }
+    
+
+ 
